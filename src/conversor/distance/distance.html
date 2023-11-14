@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="../../app/style.css">
+  <script src="distance.js"></script>
+  <title>Conversor de Moedas</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      Conversor de distâncias
+    </h1>
+    <a href="../../app/index.html">
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo"
+        alt="">
+    </a>
+  </div>
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    <img src="https://image.similarpng.com/very-thumbnail/2020/11/Money-bags-with-coins-premium-vector-PNG.png">
+  </a>
+
+  <form>
+    <label for="lightYear">Distância em Anos-luz:</label>
+    <input type="number" id="lightYear" step="0.01">
+    <button type="button" onclick="converterDistancia()">Converter</button>
+  </form>
+
+  <p>Distância em Quilômetros: <span id="km"></span></p>
+  <p>Distância entre o Sol e Próxima Centauri em km: <span id="distanceBetweenPlanetsInKm"></span></p>
+  <p>Distância entre o Sol e Próxima Centauri em Anos-luz: <span id="distanceBetweenPlanetsInLY"></span></p>
+
+</body>
+<footer>
+  <hr>
+  <a>
+    <a href="../currency/currency.html"><button>Converta valores aqui</button></a>
+    <a href="distance.html"><button>Converta distâncias aqui</button></a>
+    <a href="../temperature/temperature.html"><button>Converta temperaturas aqui</button></a>
+  </a>
+  <hr>
+</footer>
+
+</html>
